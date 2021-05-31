@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="717.0" prefWidth="1038.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timetablemanagementsystem.statistics.views.FXMLinterface3Controller">
+   <children>
+      <BorderPane layoutX="6.0" layoutY="6.0" prefHeight="707.0" prefWidth="1031.0">
+         <top>
+            <Label text="INSTITUTE OF ABC" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="49.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <AnchorPane>
+               <children>
+                  <MenuBar prefHeight="25.0" prefWidth="1029.0" BorderPane.alignment="CENTER">
+                     <menus>
+                        <Menu mnemonicParsing="false" text="Lectures">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Close" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Subjects">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Delete" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Working days and hours">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="About" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Student">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Action 1" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Location">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Action 1" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Statistic" />
+                        <Menu mnemonicParsing="false" text="Tags">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Action 1" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Generate Time Table">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Action 1" />
+                           </items>
+                        </Menu>
+                     </menus>
+                  </MenuBar>
+                  <AnchorPane layoutX="-1.0" layoutY="155.0" prefHeight="320.0" prefWidth="1031.0">
+                     <children>
+                        <TableView fx:id="Int3_tbl" layoutX="-4.0" layoutY="-1.0" prefHeight="326.0" prefWidth="772.0">
+                           <columns>
+                              <TableColumn fx:id="tbcl0" prefWidth="130.0" text="ID" />
+                              <TableColumn fx:id="tbcl1" prefWidth="145.0" text="Lecturers Name" />
+                              <TableColumn fx:id="tbcl2" prefWidth="157.0" text="Subjects" />
+                              <TableColumn fx:id="tbcl3" minWidth="0.0" prefWidth="168.0" text="Lecturers Date" />
+                              <TableColumn fx:id="tbcl4" minWidth="0.0" prefWidth="170.0" text="Sub Group" />
+                           </columns>
+                        </TableView>
+                        <TextField fx:id="text1" layoutX="774.0" layoutY="62.0" />
+                        <TextField fx:id="text2" layoutX="774.0" layoutY="114.0" />
+                        <TextField fx:id="text3" layoutX="774.0" layoutY="163.0" />
+                        <TextField fx:id="text4" layoutX="774.0" layoutY="216.0" />
+                        <Label layoutX="935.0" layoutY="66.0" prefHeight="17.0" prefWidth="84.0" text="Lectures Name" />
+                        <Label layoutX="950.0" layoutY="118.0" prefHeight="17.0" prefWidth="55.0" text="Subjects" />
+                        <Label layoutX="942.0" layoutY="167.0" text="Lectures date" />
+                        <Label layoutX="949.0" layoutY="220.0" text="Sub group" />
+                     </children>
+                  </AnchorPane>
+                  <Button fx:id="btn_insert" layoutX="14.0" layoutY="540.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="160.0" text="Insert" />
+                  <Button fx:id="btn_update" layoutX="202.0" layoutY="540.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="160.0" text="Update" />
+                  <TextField fx:id="searchbar" layoutX="25.0" layoutY="105.0" prefHeight="31.0" prefWidth="199.0" />
+                  <Button fx:id="search" layoutX="240.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="161.0" text="Search" />
+                  <Button fx:id="btn_delete" layoutX="385.0" layoutY="540.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="160.0" text="Delete" />
+                  <Button fx:id="clear" layoutX="565.0" layoutY="540.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="160.0" text="Clear" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+      <AnchorPane layoutX="10.0" layoutY="10.0" />
+   </children>
+</AnchorPane>

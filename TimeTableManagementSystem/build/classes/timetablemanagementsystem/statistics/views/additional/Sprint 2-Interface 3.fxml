@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="935.0" prefWidth="1261.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="7.0" prefHeight="923.0" prefWidth="1244.0">
+         <children>
+            <BorderPane layoutX="3.0" layoutY="1.0" prefHeight="923.0" prefWidth="1244.0" />
+            <BorderPane layoutY="-4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="935.0" prefWidth="1249.0">
+               <bottom>
+                  <Pane prefHeight="132.0" prefWidth="1273.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button fx:id="S2_btn2" layoutX="14.0" layoutY="52.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="200.0" text="Rooms with Tag &amp; Sessions" />
+                        <Button fx:id="S2_btn3" layoutX="246.0" layoutY="52.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="200.0" text="Rooms with Subjects and Lectures" />
+                        <Button fx:id="S2_btn4" layoutX="676.0" layoutY="52.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="160.0" text="Rooms with groups" />
+                        <Button fx:id="S2_btn5" layoutX="1070.0" layoutY="52.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="160.0" text="Consecutive sessions " />
+                        <Button fx:id="S2_btn41" layoutX="876.0" layoutY="52.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="160.0" text="Time canot be reserved" />
+                     </children></Pane>
+               </bottom>
+               <top>
+                  <Pane prefHeight="129.0" prefWidth="1205.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <MenuBar layoutX="-5.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="1249.0">
+                           <menus>
+                              <Menu mnemonicParsing="false" text="Lectures">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Close" />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Subjects">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Delete" />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Working days and hours">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="About" />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Student">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Location">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Statistic" />
+                              <Menu mnemonicParsing="false" text="Tags">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Generate Time Table">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                 </items>
+                              </Menu>
+                           </menus>
+                        </MenuBar>
+                        <Label layoutX="402.0" text="INSTITUTE OF ABC" textAlignment="CENTER">
+                           <font>
+                              <Font size="49.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </top>
+               <left>
+                  <ImageView fitHeight="351.0" fitWidth="424.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+               </left>
+               <center>
+                  <ImageView fitHeight="341.0" fitWidth="464.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+               </center>
+               <right>
+                  <ImageView fitHeight="386.0" fitWidth="422.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+               </right>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

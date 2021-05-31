@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1148.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timetablemanagementsystem.FXMLDocumentController">
+   <top>
+      <Label prefHeight="58.0" prefWidth="315.0" text="INSITUTE OF ABC" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </top>
+   <bottom>
+      <SplitPane dividerPositions="0.5" nodeOrientation="RIGHT_TO_LEFT" prefHeight="146.0" prefWidth="1148.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane prefHeight="158.0" prefWidth="380.0">
+               <children>
+                  <Button fx:id="button_lecture" layoutX="34.0" layoutY="52.0" mnemonicParsing="false" onAction="#handleButtonActionlevture" prefHeight="40.0" prefWidth="312.0" text="Create Statistic for Lectures and subjects" textAlignment="CENTER" />
+               </children>
+            </AnchorPane>
+          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="144.0" prefWidth="566.0">
+               <children>
+                  <Button fx:id="button_student" layoutX="82.0" layoutY="52.0" mnemonicParsing="false" onAction="#onClickStatforStudent" prefHeight="40.0" prefWidth="310.0" text="Create Statistic for Students" textAlignment="CENTER" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </bottom>
+   <center>
+      <AnchorPane>
+         <children>
+            <MenuBar prefHeight="25.0" prefWidth="1148.0" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Lectures">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Subjects">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Working days and hours">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Student">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Location">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Statistic" />
+                  <Menu mnemonicParsing="false" text="Tags">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Generate Time Table">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+            <AnchorPane layoutX="2.0" layoutY="100.0" prefHeight="414.0" prefWidth="1148.0">
+               <children>
+                  <SplitPane dividerPositions="0.29797979797979796, 0.5" layoutX="1.0" layoutY="-1.0" prefHeight="415.0" prefWidth="1148.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="384.0" fitWidth="352.0" layoutX="11.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Desktop/Koli/2.jpg" />
+                                 </image></ImageView>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="382.0">
+                           <children>
+                              <ImageView fitHeight="384.0" fitWidth="350.0" layoutX="16.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Desktop/Koli/2.png" />
+                                 </image></ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="378.0">
+                           <children>
+                              <ImageView fitHeight="384.0" fitWidth="352.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Desktop/Koli/3.jpg" />
+                                 </image></ImageView>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

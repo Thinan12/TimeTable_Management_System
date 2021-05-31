@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" styleClass="mainFxmlClass" translateX="1.0" translateY="1.0" translateZ="1.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timetablemanagementsystem.statistics.controllers.Static_for_stu_lec_subController">
+    <stylesheets>
+        <URL value="@/timetablemanagementsystem/statistics/css/static_for_stu_lec_sub.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane layoutX="-9.0" layoutY="-3.0" translateX="1.0" translateY="1.0" translateZ="1.0">
+         <children>
+            <BorderPane layoutX="2.0" layoutY="6.0" prefHeight="126.0" prefWidth="976.0">
+               <top>
+                  <Label text="INSTITUTE OF ABC" textAlignment="CENTER" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font size="49.0" />
+                     </font>
+                  </Label>
+               </top>
+            </BorderPane>
+            <Button layoutX="397.0" layoutY="594.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="187.0" text="Update" textAlignment="CENTER" textFill="#4caf50" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="397.0" AnchorPane.topAnchor="594.0" />
+            <Button layoutX="23.0" layoutY="594.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="185.0" text="Insert" textAlignment="CENTER" textFill="#4caf50" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="768.0" AnchorPane.topAnchor="594.0" />
+            <MenuBar layoutX="6.0" layoutY="94.0" prefHeight="25.0" prefWidth="969.0" style="-fx-background-color: #a7f6ff;">
+               <menus>
+                  <Menu mnemonicParsing="false" text="Lectures">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                        <Menu mnemonicParsing="false" text="Unspecified Menu">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Action 1" />
+                           </items>
+                        </Menu>
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Subjects">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Working days and hours">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Student">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Location">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Statistic" />
+                  <Menu mnemonicParsing="false" text="Tags">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Generate Time Table">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+            <TableView layoutX="23.0" layoutY="267.0" prefHeight="290.0" prefWidth="939.0">
+              <columns>
+                <TableColumn prefWidth="178.0" text="Lecturers" />
+                  <TableColumn prefWidth="196.0" text="Students" />
+                  <TableColumn minWidth="0.0" prefWidth="190.0" text="Subjects" />
+                  <TableColumn minWidth="0.0" prefWidth="140.0" text="Lecturers date" />
+                  <TableColumn minWidth="0.0" prefWidth="126.0" text="Group " />
+                  <TableColumn minWidth="0.0" prefWidth="107.0" text="Sub Group " />
+              </columns>
+            </TableView>
+            <Button layoutX="777.0" layoutY="594.0" mnemonicParsing="false" text="Delete" textFill="#4caf50" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="777.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="594.0" />
+            <Label layoutX="327.0" layoutY="168.0" prefHeight="58.0" prefWidth="329.0" text=" DATA  collection ">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

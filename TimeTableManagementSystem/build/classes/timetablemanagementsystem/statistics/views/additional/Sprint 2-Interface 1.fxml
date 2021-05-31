@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="879.0" prefWidth="1203.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="-8.0" layoutY="-6.0" prefHeight="879.0" prefWidth="1203.0">
+         <center>
+            <SplitPane dividerPositions="0.25422297297297297" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="1186.0" BorderPane.alignment="CENTER">
+               <items>
+                  <ImageView fitHeight="365.0" fitWidth="531.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="C:\Users\thina\Documents\NetBeansProjects\TimeTableManagementSystem\src\timetablemanagementsystem\images\4.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="355.0" fitWidth="222.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="C:\Users\thina\Documents\NetBeansProjects\TimeTableManagementSystem\src\timetablemanagementsystem\images\5.jpg" />
+                     </image>
+                  </ImageView>
+               </items>
+            </SplitPane>
+         </center>
+         <top>
+            <Label prefHeight="58.0" prefWidth="387.0" style="-fx-background-color: white;" text="   INSITUTE OF ABC" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+         </top>
+         <bottom>
+            <SplitPane fx:id="S2btn1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="132.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <items>
+                  <Button fx:id="Bid" mnemonicParsing="false" prefHeight="50.0" prefWidth="290.0" style="-fx-background-color: blue; -fx-border-color: black;" text="Buildings &amp; Rooms" textAlignment="CENTER" textFill="#f4faff" />
+               </items>
+            </SplitPane>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
